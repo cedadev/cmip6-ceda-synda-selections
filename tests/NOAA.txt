@@ -1,0 +1,6 @@
+mip_era=CMIP6
+institution_id=NOAA-GFDL
+experiment_id=amip
+table_id=AERmon
+variable=tntrs
+protocol=gridftp
