@@ -1,0 +1,8 @@
+mip_era=CMIP6
+activity_id=CMIP
+institution_id=NASA-GISS
+source_id=GISS-E2-1-G
+experiment_id=amip
+#table_id=Amon
+replica=False
+protocol=gridftp

@@ -1,0 +1,8 @@
+project=CMIP6
+member_id=r1i1p1f1
+variable[Amon]=clt evspsbl hfls hfss hurs huss pr prsn ps psl rlds rlus rlut rsds rsdt rsus rsut sfcWind tas tasmax tasmin tauu tauv uas vas
+variable[Lmon]=mrro mrsos
+variable[LImon]=snw
+variable[Omon]=sos tos zos
+variable[OImon]=sic sim sit snd tsice
+protocol=gridftp

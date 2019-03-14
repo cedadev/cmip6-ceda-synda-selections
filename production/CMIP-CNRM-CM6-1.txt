@@ -1,0 +1,8 @@
+mip_era=CMIP6
+activity_id=CMIP
+#institution_id=IPSL
+source_id=CNRM-CM6-1
+experiment_id=amip
+#table_id=Amon
+replica=False
+protocol=gridftp
