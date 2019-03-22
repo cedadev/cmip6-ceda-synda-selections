@@ -1,0 +1,6 @@
+project=CMIP6
+variable[Omon]=thetao
+variable[SImon]=siconc
+ensemble=r1i1p1f1
+experiment=historical
+protocol=gridftp
