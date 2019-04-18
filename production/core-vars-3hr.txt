@@ -1,0 +1,4 @@
+project=CMIP6
+table_id=3hr
+variable=mrsos pr rlds rldscs rlus rsds rsdscs rsus rsuscs
+protocol=gridftp

@@ -1,0 +1,10 @@
+project=CMIP6
+protocol=gridftp
+latest=true
+replica=false
+experiment_id=faf-passiveheat
+variable[table_id=ImonGre]=ts
+variable[table_id=Ofx]=deptho
+variable[table_id=ImonAnt]=ts
+variable[table_id=Amon]=ts
+variable[table_id=Omon]=bigthetao, masscello, masso, msftbarot, msftmrho, msftmz, so, tauuo, tauvo, thetao, thkcello, tos, umo, uo, vmo, vo, volcello, volo

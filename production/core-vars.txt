@@ -1,0 +1,6 @@
+project=CMIP6
+variable[Amon]=ch4 clivi clt clwvi co2 evspsbl hfls hfss hur hus o3 pr prsn prw ps psl rlds rldscs rlut rlutcs rsds rsdscs rsut rsutcs rtmt ta tas tasmax tasmin tauu tauv ts ua va wap zg
+variable[Lmon]=baresoilFrac cropFrac cVeg gpp grassFrac lai mrro mrso mrsos nbp pastureFrac shrubFrac treeFrac
+variable[Omon]=chl fgco2 hfds mlotst msftmyz o2 so sos spco2 talk thetao tos uo vo zos
+variable[SImon]=siconc simass sisnmass
+protocol=gridftp

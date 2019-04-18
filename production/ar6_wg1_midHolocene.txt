@@ -1,0 +1,12 @@
+project=CMIP6
+protocol=gridftp
+latest=true
+replica=false
+experiment_id=midHolocene
+variable[table_id=SImon]=siconc
+variable[table_id=Amon]=evspsbl, pr, tas, ts
+variable[table_id=Omon]=tos
+variable[table_id=ImonGre]=tas, ts
+variable[table_id=ImonAnt]=tas, ts
+variable[table_id=LImon]=sftflf, sftgif, sftgrf
+variable[table_id=day]=tasmax

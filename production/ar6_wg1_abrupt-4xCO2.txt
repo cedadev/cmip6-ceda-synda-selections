@@ -1,0 +1,9 @@
+project=CMIP6
+protocol=gridftp
+latest=true
+replica=false
+experiment_id=abrupt-4xCO2
+variable[table_id=ImonGre]=tas
+variable[table_id=ImonAnt]=tas
+variable[table_id=Amon]=pr, rlut, rlutcs, rsdt, rsut, rsutcs, tas
+variable[table_id=Omon]=bigthetao, bigthetaoga, thetao, thetaoga, tos, volcello, zostoga

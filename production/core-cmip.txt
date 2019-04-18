@@ -1,0 +1,4 @@
+project=CMIP6
+experiment_id=1pctC02 abrupt-4xCO2 amip esm-hist esm-hist-ext esm-piControl esm-piControl-spinup historical historical-ext piControl piControl-spinup
+table_id=Amon
+protocol=gridftp

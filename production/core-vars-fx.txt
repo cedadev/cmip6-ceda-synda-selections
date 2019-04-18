@@ -1,0 +1,5 @@
+project=CMIP6
+table_id=fx
+variable=areacella mrsofc sftlf
+variable[Ofx]=areacello
+protocol=gridftp
