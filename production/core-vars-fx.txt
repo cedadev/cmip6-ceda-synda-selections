@@ -2,4 +2,7 @@ project=CMIP6
 table_id=fx
 variable=areacella mrsofc sftlf
 variable[Ofx]=areacello
+latest=true
+replica=false
 protocol=gridftp
+data_node!=esgf-data3.ceda.ac.uk

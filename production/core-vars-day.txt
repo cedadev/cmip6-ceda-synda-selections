@@ -1,4 +1,7 @@
 project=CMIP6
 table_id=day
 variable=pr rlut snc tas tasmax tasmin ua va
+latest=true
+replica=false
 protocol=gridftp
+data_node!=esgf-data3.ceda.ac.uk

@@ -26,3 +26,5 @@ variable[table_id=E3hr]=prw, psl, uas, vas
 variable[table_id=Emon]=evspsblpot, mmrno3, ps, ta27, ua, ua27, va, va27, zg27
 variable[table_id=ImonAnt]=acabf, prsn, rsds, sbl, snm, tas, ts, tsn
 variable[table_id=Lmon]=mrro, mrros, mrso, mrsos, tsl
+data_node!=esgf-data3.ceda.ac.uk
+member_id=r1i1p1f1 r2i1p1f1 r3i1p1f1

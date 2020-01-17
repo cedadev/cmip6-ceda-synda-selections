@@ -1,0 +1,10 @@
+project=CMIP6
+project!=cordex
+protocol=gridftp
+latest=true
+replica=false
+data_node!=esgf-data3.ceda.ac.uk
+member_id=r1i1p1f1 r2i1p1f1 r3i1p1f1
+activity_id=C4MIP
+variable[table_id=Amon]=tas pr ps rsds huss uas vas sfcWind
+experiment_id=1pctCO2-bgc 1pctCO2-rad

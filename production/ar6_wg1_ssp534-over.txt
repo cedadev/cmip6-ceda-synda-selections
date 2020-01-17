@@ -21,3 +21,5 @@ variable[table_id=LImon]=acabfIs, sbl, sftflf, sftgif, sftgrf, snd, snm, snw, tp
 variable[table_id=Ofx]=deptho
 variable[table_id=Eday]=hus850
 variable[table_id=AERmonZ]=ch4, o3, oh, ta, ua, va, zg
+data_node!=esgf-data3.ceda.ac.uk
+member_id=r1i1p1f1 r2i1p1f1 r3i1p1f1

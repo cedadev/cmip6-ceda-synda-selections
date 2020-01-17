@@ -1,8 +1,0 @@
-project=CMIP6
-protocol=gridftp
-latest=true
-replica=false
-experiment_id=amip
-variable[table_id=ImonGre]=tas
-variable[table_id=ImonAnt]=tas
-variable[table_id=Amon]=tas

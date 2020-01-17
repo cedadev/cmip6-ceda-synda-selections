@@ -1,0 +1,8 @@
+project=CMIP6
+protocol=gridftp
+latest=true
+replica=false
+variant_label=r1i1p1f1
+variable[Amon]=ta cli clw
+variable[CFmon]=ta cli clw
+data_node!=esgf-data3.ceda.ac.uk

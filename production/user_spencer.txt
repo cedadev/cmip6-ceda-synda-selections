@@ -1,0 +1,10 @@
+project=CMIP6
+project!=cordex
+protocol=gridftp
+latest=true
+replica=false
+data_node!=esgf-data3.ceda.ac.uk
+experiment_id=ssp119 ssp126 ssp245 ssp370 ssp434 ssp460 ssp534-over ssp585 
+variable[table_id=Oyr]=fgco2
+variable[table_id=Lmon]=nbp npp rh ra cVeg cProduct cLitter
+variable[table_id=Emon]=netAtmosLandCO2Flux cSoil fLuc cLand

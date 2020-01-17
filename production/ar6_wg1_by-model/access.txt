@@ -1,0 +1,31 @@
+data_node!=esgf-data3.ceda.ac.uk 1pctCO2 a4SST a4SSTice a4SSTice-4xCO2 abrupt-0p5xCO2 abrupt-2xCO2 abrupt-4xCO2 abrupt-solm4p abrupt-solp4p amip amip-4xCO2 amip-a4SST-4xCO2 amip-future4K amip-lwoff amip-m4K amip-p4K amip-p4K-lwoff amip-piForcing aqua-4xCO2 aqua-control aqua-control-lwoff aqua-p4K aqua-p4K-lwoff control-1950 esm-hist faf-all faf-heat faf-passiveheat faf-stress faf-water highres-future highresSST-4xCO2 highresSST-future highresSST-LAI highresSST-p4K highresSST-present highresSST-smoothed hist-1950 hist-aer hist-GHG hist-nat historical hist-stratO3 land-noLu lgm midHolocene omip1 omip1-spunup omip2 omip2-spunup piClim-4xCO2 piClim-aer piClim-anthro piClim-control piClim-ghg piClim-lu piControl piSST piSST-4xCO2 piSST-4xCO2-rad piSST-pxK spinup-1950 ssp119 ssp126 ssp245 ssp370 ssp434 ssp460 ssp534-over ssp585
+source_id=ACCESS-CM2 ACCESS-ESM1-5
+latest=true
+member_id=r1i1p1f1
+project=CMIP6
+protocol=gridftp
+replica=false
+variable[table_id=3hr]=huss, pr, tas, uas, vas
+variable[table_id=6hrPlev]=zg1000
+variable[table_id=AERmon]=abs550aer, airmass, ccn, cdnc, ch4, co, co2, emidms, emidust, emilnox, emiss, lossch4, lossco, mmrbc, mmrdust, mmrnh4, mmrno3, mmroa, mmrpm2p5, mmrso4, mmrsoa, mmrss, no, no2, o3, o3loss, o3prod, od550aer, od550lt1aer, od870aer, oh, photo1d, ps, ptp, rlutaf, rlutcsaf, rsutaf, rsutcsaf, so2, toz, tropoz, ua, va, wa, zg
+variable[table_id=AERmonZ]=ch4, o3, oh, ta, ua, va, zg
+variable[table_id=Amon]=ch4, ch4Clim, clt, co2, co2Clim, evspsbl, hfls, hfss, hurs, hus, huss, o3, o3Clim, pr, prsn, prw, ps, psl, rlds, rlus, rlut, rlutcs, rsds, rsdscs, rsdt, rsus, rsuscs, rsut, rsutcs, rtmt, sbl, ta, tas, tasmax, tasmin, tauu, tauv, ts, ua, va, zg
+variable[table_id=CF3hr]=pr, prw, psl
+variable[table_id=CFday]=ps
+variable[table_id=CFmon]=hus, ps, smc, ta
+variable[table_id=day]=hurs, huss, mrro, pr, psl, sfcWindmax, snw, tas, tasmax, tasmin, ua, uas, va, vas, zg
+variable[table_id=E3hr]=prw, psl, uas, vas
+variable[table_id=Eday]=hus850
+variable[table_id=EdayZ]=ua, va, zg
+variable[table_id=Emon]=cSoil, evspsblpot, hus, hus27, mmrno3, mrtws, ps, rss, sweLut, ta27, ua, ua27, va, va27, zg27
+variable[table_id=EmonZ]=wtem
+variable[table_id=fx]=mrsofc
+variable[table_id=ImonAnt]=acabf, hfls, hfss, prsn, rlds, rlus, rsds, rsus, sbl, snc, snm, tas, ts, tsn
+variable[table_id=ImonGre]=acabf, hfls, hfss, prsn, rlds, rlus, rsds, rsus, sbl, snc, snm, tas, ts, tsn
+variable[table_id=LImon]=acabfIs, sbl, sftflf, sftgif, sftgrf, snc, snd, snm, snw, tpf, tsn
+variable[table_id=Lmon]=burntFractionAll, cCwd, cLeaf, cLitterAbove, cLitterBelow, cProduct, cRoot, cSoilFast, cSoilMedium, cSoilSlow, cVeg, gpp, lai, landCoverFrac, mrro, mrros, mrso, mrsos, nbp, ra, rh, tsl
+variable[table_id=Oday]=tos
+variable[table_id=Ofx]=deptho
+variable[table_id=Omon]=bigthetao, bigthetaoga, fgco2, hfds, masscello, masso, mfo, mlotst, msftbarot, msftmrho, msftmz, msftyz, o2, ph, prsn, so, sos, tauuo, tauvo, thetao, thetaoga, thkcello, tos, umo, uo, vmo, vo, volcello, volo, zos, zostoga
+variable[table_id=Oyr]=o2, ph
+variable[table_id=SImon]=siarean, siareas, siconc, siconca, sithick, sivoln, sivols

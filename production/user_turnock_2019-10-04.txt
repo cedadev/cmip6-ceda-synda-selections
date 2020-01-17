@@ -1,0 +1,8 @@
+project=CMIP6
+project!=cordex
+protocol=gridftp
+latest=true
+replica=false
+data_node!=esgf-data3.ceda.ac.uk
+variable[table_id=AERmon]=o3 mmrbc mmrso4 mmrss mmrdust mmroa
+experiment_id=historical ssp370 ssp126 ssp245 ssp585 ssp119 ssp434 ssp460 ssp534

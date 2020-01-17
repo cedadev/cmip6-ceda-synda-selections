@@ -1,0 +1,8 @@
+project=CMIP6
+project!=cordex
+protocol=gridftp
+latest=true
+replica=false
+data_node!=esgf-data3.ceda.ac.uk
+variable[table_id=Omon]=so thetao msftmrho msftmyz htovovrt sltovovrt
+experiment_id=piControl ss585

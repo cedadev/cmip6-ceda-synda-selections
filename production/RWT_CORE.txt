@@ -1,0 +1,28 @@
+mip_era=CMIP6
+protocol=gridftp
+priority=5000
+replica=false
+latest=true
+activity_id!=input4MIPs obs4MIPs
+experiment_id=lgm hist-noLu piControl abrupt-4xCO2 1pctCO2 historical esm-hist hist-nat hist-GHG hist-aer hist-stratO3 ssp245 amip lig127k midHolocene past1000 midPliocene-eoi400 ssp119 ssp126 ssp370 ssp585 piClim-control piClim-4xCO2 piClim-aer piClim-anthro piClim-lu piClim-ghg
+variable[table_id=fx]=areacella sftgif sftlf
+variable[AERmon]=abs550aer airmass ccn cdnc ch4 co emidms emidust emilnox emiss lossch4 lossco mmrbc mmrdust mmrnh4 mmrno3 mmroa mmrpm2p5 mmrso4 mmrsoa mmrss no no2 o3 o3loss o3prod od550aer od550lt1aer od870aer oh photo1d ps ptp rlutaf rlutcsaf rsutaf rsutcsaf so2 ta toz tropoz ua va wa zg AERmon
+variable[AERday]=zg1000 zg500
+variable[Amon]=ch4 clt co2 evspsbl hfls hfss hurs hus huss pr prsn prw ps psl rlds rlus rlut rlutcs rsds rsdscs rsdt rsus rsuscs rsut rsutcs ta tas tasmax tasmin tauu tauv ts ua va zg
+variable[CFmon]=clisccp smc
+variable[CFday]=ps
+variable[CF3hr]=pr prw psl
+variable[table_id=day]=hurs hus huss mrro pr psl sfcWindmax snw ta tas tasmax tasmin ua uas va vas wap zg
+variable[Emon]=evspsblpot mrtws sweLut
+variable[Eday]=hus850 ta500 tr
+variable[E3hr]=pr prw psl
+variable[Lmon]=burntFractionAll cCwd cLeaf cLitterAbove cLitterBelow cProduct cRoot cSoil cSoilFast cSoilMedium cSoilSlow cVeg gpp lai landCoverFrac mrro mrros mrso mrsofc mrsos nbp ra rh tas tsl
+variable[LImon]=acabfIs sbl sftgif sftgrf sftflf snc snd snm snw tpf tsn
+variable[Ofx]=areacello basin deptho masscello sftof volcello
+variable[Oyr]=o2 ph
+variable[Omon]=no3 o2 ph po4 prsn si so sos talk tauuo tauvo thetao thetaoga thkcello tos umo uo vmo vo volcello volo zos zostoga
+variable[Omon]=bigthetao chl dissic dissoc exp100 fgco2 fgo2 hfds intpp masscello masso mfo mlotst msftbarot msftmrho msftmz
+variable[Oday]=tos
+variable[SImon]=siarean siareas siconc siconca sithick sivoln sivols
+variable[table_id=3hr]=huss pr tas uas vas
+data_node!=esgf-data3.ceda.ac.uk

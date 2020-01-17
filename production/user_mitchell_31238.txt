@@ -1,0 +1,10 @@
+project=CMIP6
+project!=cordex
+protocol=gridftp
+latest=true
+replica=false
+data_node!=esgf-data3.ceda.ac.uk
+activity_id=CMIP DAMIP
+variable[table_id=Amon]=ta tas
+#variable[table_id=CFmon]=ta tas
+experiment_id=piControl historical ssp245 hist-CO2 hist-GHG hist-aer hist-nat

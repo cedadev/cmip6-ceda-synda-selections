@@ -10,3 +10,5 @@ variable[table_id=ImonGre]=tas, ts
 variable[table_id=ImonAnt]=tas, ts
 variable[table_id=LImon]=sftflf, sftgif, sftgrf
 variable[table_id=day]=tasmax
+data_node!=esgf-data3.ceda.ac.uk
+member_id=r1i1p1f1 r2i1p1f1 r3i1p1f1

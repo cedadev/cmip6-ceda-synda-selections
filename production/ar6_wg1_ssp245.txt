@@ -26,3 +26,5 @@ variable[table_id=E3hr]=prw, psl, uas, vas
 variable[table_id=Emon]=cSoil, evspsblpot, hus, hus27, mmrno3, mrtws, ps, rss, ta27, ua, ua27, va, va27, zg27
 variable[table_id=ImonAnt]=acabf, hfls, hfss, prsn, rlds, rsds, rsus, sbl, snc, snm, tas, ts, tsn
 variable[table_id=Lmon]=burntFractionAll, gpp, lai, landCoverFrac, mrro, mrros, mrso, mrsos, nbp, tsl
+data_node!=esgf-data3.ceda.ac.uk
+member_id=r1i1p1f1 r2i1p1f1 r3i1p1f1

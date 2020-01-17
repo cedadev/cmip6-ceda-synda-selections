@@ -7,3 +7,5 @@ variable[table_id=ImonGre]=tas
 variable[table_id=ImonAnt]=tas
 variable[table_id=Amon]=rlut, rlutcs, rsdt, rsut, rsutcs, tas
 variable[table_id=Omon]=bigthetao, bigthetaoga, thetao, thetaoga, tos, volcello, zostoga
+data_node!=esgf-data3.ceda.ac.uk
+member_id=r1i1p1f1 r2i1p1f1 r3i1p1f1

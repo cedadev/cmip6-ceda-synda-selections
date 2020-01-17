@@ -15,3 +15,5 @@ variable[table_id=Lmon]=burntFractionAll, cCwd, cLeaf, cLitterAbove, cLitterBelo
 variable[table_id=LImon]=snc, snw
 variable[table_id=Ofx]=deptho
 variable[table_id=AERmonZ]=ta, ua, va, zg
+data_node!=esgf-data3.ceda.ac.uk
+member_id=r1i1p1f1 r2i1p1f1 r3i1p1f1

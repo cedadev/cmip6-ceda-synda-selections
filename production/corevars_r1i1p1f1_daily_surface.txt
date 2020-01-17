@@ -2,3 +2,7 @@ project=CMIP6
 member_id=r1i1p1f1
 table_id=day
 variable=tas tasmax tasmin psl sfcWind huss pr
+latest=true
+replica=false
+protocol=gridftp
+data_node!=esgf-data3.ceda.ac.uk

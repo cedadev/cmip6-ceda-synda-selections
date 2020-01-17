@@ -3,4 +3,7 @@ variable[Amon]=ch4 clivi clt clwvi co2 evspsbl hfls hfss hur hus o3 pr prsn prw 
 variable[Lmon]=baresoilFrac cropFrac cVeg gpp grassFrac lai mrro mrso mrsos nbp pastureFrac shrubFrac treeFrac
 variable[Omon]=chl fgco2 hfds mlotst msftmyz o2 so sos spco2 talk thetao tos uo vo zos
 variable[SImon]=siconc simass sisnmass
+latest=true
+replica=false
 protocol=gridftp
+data_node!=esgf-data3.ceda.ac.uk

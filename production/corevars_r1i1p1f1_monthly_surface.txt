@@ -5,4 +5,7 @@ variable[Lmon]=mrro mrsos
 variable[LImon]=snw
 variable[Omon]=sos tos zos
 variable[OImon]=sic sim sit snd tsice
+latest=true
+replica=false
 protocol=gridftp
+data_node!=esgf-data3.ceda.ac.uk
