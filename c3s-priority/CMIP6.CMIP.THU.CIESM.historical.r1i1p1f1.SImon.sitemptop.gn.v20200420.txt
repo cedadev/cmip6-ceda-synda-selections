@@ -1,0 +1,12 @@
+project=CMIP6
+protocol=gridftp
+latest=true
+priority=5000
+data_node!=esgf-data3.ceda.ac.uk
+activity_id=CMIP
+institution_id=THU
+source_id=CIESM
+experiment_id=historical
+member_id=r1i1p1f1
+variable[table_id=SImon]=sitemptop
+grid_label=gn

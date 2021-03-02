@@ -1,0 +1,12 @@
+project=CMIP6
+protocol=gridftp
+latest=true
+priority=5000
+data_node!=esgf-data3.ceda.ac.uk
+activity_id=CMIP
+institution_id=BCC
+source_id=BCC-CSM2-MR
+experiment_id=historical
+member_id=r2i1p1f1
+variable[table_id=day]=sfcWind
+grid_label=gn

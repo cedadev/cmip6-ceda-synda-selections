@@ -1,0 +1,12 @@
+project=CMIP6
+protocol=gridftp
+latest=true
+priority=5000
+data_node!=esgf-data3.ceda.ac.uk
+activity_id=CMIP
+institution_id=EC-Earth-Consortium
+source_id=EC-Earth3-Veg
+experiment_id=historical
+member_id=r12i1p1f1
+variable[table_id=SImon]=simass
+grid_label=gr
