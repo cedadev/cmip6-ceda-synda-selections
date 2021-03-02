@@ -1,0 +1,14 @@
+project=CMIP6
+project!=cordex
+protocol=gridftp
+latest=true
+priority=2200
+member_id=r1i1p1f1, r1i21p1f1, r1i1p1f2, r1i1p2f1
+data_node!=esgf-data3.ceda.ac.uk
+#activity_id=RFMIP
+source_id=CanESM5, BCC-ESM1, GFDL-ESM4, EC-Earth3
+variable[table_id=AERmon]=cdnc, mmrso4, od550aer, od550lt1aer, reffclwtop
+variable[table_id=Emon]=cldnvi
+variable[table_id=Amon]=clivi, clt, clwvi, evspsbl, hfls, hfss, pr, psl, rlds, rlut, rsdscs, rsds, rsdt, rsus, rsut, tas, ts, ua, va
+variable[table_id=CFmon]=cltcalipso, clmcalipso, cllcalipso, clhcalipso
+experiment_id=amip

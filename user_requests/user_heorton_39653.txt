@@ -1,0 +1,10 @@
+project=CMIP6
+project!=cordex
+protocol=gridftp
+latest=true
+priority=2000
+member_id=r1i1p1f1, r1i1p1f2, r1i1p1f3, r10i1p1f2, r10i1p1f1
+data_node!=esgf-data3.ceda.ac.uk
+variable[table_id=SIday]=siconc, sithick, siu, siv
+experiment_id=ssp126, ssp245, ssp585
+source_id=TaiESM1, AWI-CM-1-1-MR, CMCC-CM2-SR5, ACCESS-ESM1-5,ACCESS-CM2, EC-Earth3, EC-Earth3-AerChem, EC-Earth3-Veg, MPI-ESM-1-2-HAM, IPSL-CM6A-LR, MPI-ESM1-2-HR, MPI-ESM1-2-LR, MRI-ESM2-0, GISS-E2-1-G-CC, CESM2-FV2, CESM2-WACCM, CESM2-WACCM-FV2, NorCPM1, NorESM2-MM, GFDL-CM4, GFDL-ESM4, NESM3, SAM0-UNICON, CIESM, MCM-UA-1-0

@@ -1,0 +1,6 @@
+project=CMIP6
+project!=cordex
+protocol=gridftp
+latest=true
+priority=2000
+data_node!=esgf-data3.ceda.ac.uk

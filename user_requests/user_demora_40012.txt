@@ -1,0 +1,11 @@
+project=CMIP6
+project!=cordex
+protocol=gridftp
+latest=true
+priority=2000
+member_id=r1i1p1f1, r1i1p1f2, r2i1p1f1 
+data_node!=esgf-data3.ceda.ac.uk
+variable=volcello
+activity_id=CMIP, DAMIP, ScenarioMIP
+#experiment_id=historical, piControl, ssp119, ssp126, ssp245, ssp370, ssp434, ssp460, ssp534-over, ssp585
+#experiment_id=hist-1950, hist-GHG, hist-aer, hist-bgc, hist-nat, hist-noLu, hist-piAer, hist-sol, hist-vol

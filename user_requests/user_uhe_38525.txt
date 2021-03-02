@@ -1,0 +1,10 @@
+project=CMIP6
+project!=cordex
+protocol=gridftp
+latest=true
+priority=1800
+source_id= EC-Earth3, IPSL-CM6A-LR, CanESM5, CNRM-CM6-1, GISS-E2-1-G, MIROC6
+member_id=r1i1p1f1, r2i1p1f1, r3i1p1f1, r4i1p1f1, r5i1p1f1, r6i1p1f1, r7i1p1f1, r8i1p1f1, r9i1p1f1, r10i1p1f1
+data_node!=esgf-data3.ceda.ac.uk
+variable[table_id=day]=tas, tasmin, tasmax, pr 
+experiment_id=historical, ssp126, ssp245, ssp585

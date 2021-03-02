@@ -1,0 +1,12 @@
+project=CMIP6
+project!=cordex
+protocol=gridftp
+latest=true
+priority=2000
+member_id=r1i1p1f1 
+data_node!=esgf-data3.ceda.ac.uk
+source_id=BCC-ESM1, CanESM5, CNRM-ESM2-1, ACCESS-ESM1-5, ACCESS-CM2, EC-Earth3, IPSL-CM6A-LR, MIROC6, MIROC-ES2L, MPI-ESM1-2-HR, MRI-ESM2-0, GISS-E2-1-G, GFDL-CM4, GFDL-ESM4, NorESM2-MM
+variable[table_id=Omon]=msftbarot, tos, so, tauuo, tauvo, thetao, uo, vo, wmo, vmo
+variable[table_id=SImon]=siconc, sivol
+variable[table_id=Amon]=tauu, tauv
+experiment_id=piControl, esm-piControl

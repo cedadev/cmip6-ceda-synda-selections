@@ -1,0 +1,9 @@
+project=CMIP6
+project!=cordex
+protocol=gridftp
+latest=true
+priority=2000
+member_id=r1i1p1f1, r1i1p1f2, r1i1p2f1
+data_node!=esgf-data3.ceda.ac.uk
+variable[table_id=Amon]=rsut, rsutcs, clivi, clwvi, tas, ts, hfls, pr
+experiment_id=piControl, abrupt-4xCO2

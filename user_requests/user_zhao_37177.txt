@@ -1,0 +1,13 @@
+project=CMIP6
+project!=cordex
+protocol=gridftp
+latest=true
+replica=false
+priority=2000
+member_id=r1i1p1f1 r2i1p1f1 r1i1p1f2
+data_node!=esgf-data3.ceda.ac.uk
+variable[table_id=Lmon]=lai
+variable[table_id=Amon]=uas vas
+variable[table_id=AERmon]=od550aer od550aer emidust depdust wetdust drydust loaddust
+variable[table_id=Emon]=od550aer od550aer emidust depdust wetdust drydust loaddust
+experiment_id=historical amip

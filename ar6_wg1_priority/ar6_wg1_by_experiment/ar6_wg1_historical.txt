@@ -1,7 +1,6 @@
 project=CMIP6
 protocol=gridftp
 latest=true
-replica=false
 experiment_id=historical
 member_id=r1i1p1f1
 variable[table_id=Oyr]=o2, ph
@@ -29,3 +28,4 @@ variable[table_id=Emon]=cSoil, evspsblpot, hus, hus27, mmrno3, mrtws, ps, rss, s
 variable[table_id=ImonAnt]=acabf, hfls, hfss, prsn, rlds, rlus, rsds, rsus, sbl, snc, snm, tas, ts, tsn
 variable[table_id=Lmon]=burntFractionAll, cCwd, cLeaf, cLitterAbove, cLitterBelow, cProduct, cRoot, cSoilFast, cSoilMedium, cSoilSlow, cVeg, gpp, lai, landCoverFrac, mrro, mrros, mrso, mrsos, nbp, ra, rh, tsl
 data_node!=esgf-data3.ceda.ac.uk
+priority=1800

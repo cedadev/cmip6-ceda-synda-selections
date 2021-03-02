@@ -1,0 +1,14 @@
+project=CMIP6
+project!=cordex
+protocol=gridftp
+latest=true
+replica=false
+priority=2000
+member_id=r1i1p1f1
+data_node!=esgf-data3.ceda.ac.uk
+experiment_id=historical ssp240 ssp370 ssp585
+#variable[table_id=6hrPlevPt]=va ua ta hus psl ps gz
+#Variable[table_id=6hrPlev]=va ua ta hus psl ps gz
+variable[table_id=day]=tos tas
+variable[table_id=3hr]=prc
+variable[table_id=fx]=orog sftlf 

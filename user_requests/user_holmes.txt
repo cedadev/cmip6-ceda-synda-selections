@@ -1,0 +1,11 @@
+project=CMIP6
+project!=cordex
+protocol=gridftp
+latest=true
+replica=false
+priority=3000
+member_id=r2i1p1f1 
+data_node!=esgf-data3.ceda.ac.uk
+variable[table_id=Ofx]=areacello
+experiment_id=historical 1pctCO2
+source_id=CAMS-CSM1-0

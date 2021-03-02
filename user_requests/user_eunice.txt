@@ -1,0 +1,13 @@
+project=CMIP6
+project!=cordex
+protocol=gridftp
+latest=true
+replica=false
+priority=3000
+data_node!=esgf-data3.ceda.ac.uk
+source_id=GFDL-ESM4
+experiment_id=amip
+member_id=r1i1p1f1
+table_id=Amon
+variable_id=ta
+grid_label=gr1

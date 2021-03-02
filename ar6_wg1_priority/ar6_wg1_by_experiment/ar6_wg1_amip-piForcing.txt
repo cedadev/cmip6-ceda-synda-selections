@@ -1,7 +1,7 @@
 project=CMIP6
 protocol=gridftp
 latest=true
-replica=false
+
 experiment_id=amip-piForcing
 variable[table_id=Amon]=evspsbl, hurs, huss, pr, prw, ps
 variable[table_id=CFmon]=ps
@@ -10,4 +10,5 @@ variable[table_id=Emon]=evspsblpot, ps
 variable[table_id=Lmon]=mrro, mrso, mrsos
 variable[table_id=LImon]=snw
 data_node!=esgf-data3.ceda.ac.uk
-member_id=r1i1p1f1 r2i1p1f1 r3i1p1f1
+member_id=r1i1p1f1 
+priority=1800

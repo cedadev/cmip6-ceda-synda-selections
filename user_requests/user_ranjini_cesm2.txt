@@ -1,0 +1,11 @@
+project=CMIP6
+project!=cordex
+protocol=gridftp
+latest=true
+priority=2000
+member_id=r1i1p1f1 
+data_node!=esgf-data3.ceda.ac.uk
+source_id=CESM2
+table_id=Amon
+variable=tas 
+experiment_id=ssp119, ssp126, ssp245, ssp370, ssp434, ssp460, ssp534-over, ssp585

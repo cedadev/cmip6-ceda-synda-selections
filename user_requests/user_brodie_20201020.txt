@@ -1,0 +1,10 @@
+project=CMIP6
+project!=cordex
+protocol=gridftp
+latest=true
+replica=false
+priority=2000
+member_id=r1i1p1f1 r2i1p1f1 r1i1p1f2
+data_node!=esgf-data3.ceda.ac.uk
+variable[table_id=Omon]=hfds, wfo, tos
+experiment_id=historical ssp585 hist-1950 highres-future

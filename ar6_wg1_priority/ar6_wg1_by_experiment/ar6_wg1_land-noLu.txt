@@ -1,7 +1,7 @@
 project=CMIP6
 protocol=gridftp
 latest=true
-replica=false
+
 experiment_id=land-noLu
 variable[table_id=ImonGre]=tas, ts
 variable[table_id=SImon]=siconc, siconca
@@ -13,4 +13,5 @@ variable[table_id=Emon]=hus, hus27, ta27, ua, ua27, va, va27, zg27
 variable[table_id=ImonAnt]=tas, ts
 variable[table_id=AERmonZ]=ta, ua, va, zg
 data_node!=esgf-data3.ceda.ac.uk
-member_id=r1i1p1f1 r2i1p1f1 r3i1p1f1
+member_id=r1i1p1f1 
+priority=1800

@@ -1,10 +1,10 @@
 project=CMIP6
 protocol=gridftp
 latest=true
-replica=false
+
 experiment_id=ssp370
 data_node!=esgf-data3.ceda.ac.uk
-member_id=r1i1p1f1 r2i1p1f1 r3i1p1f1
+member_id=r1i1p1f1 
 variable[table_id=Oyr]=o2, ph
 variable[table_id=ImonGre]=acabf, prsn, rsds, sbl, snm, tas, ts, tsn
 variable[table_id=CFday]=ps
