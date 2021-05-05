@@ -1,0 +1,12 @@
+project=CMIP6
+protocol=gridftp
+latest=true
+priority=5000
+data_node!=esgf-data3.ceda.ac.uk
+activity_id=ScenarioMIP
+institution_id=EC-Earth-Consortium
+source_id=EC-Earth3-Veg
+experiment_id=ssp245
+member_id=r1i1p1f1
+variable[table_id=Amon]=uas
+grid_label=gr

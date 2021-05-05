@@ -1,0 +1,10 @@
+project=CMIP6
+project!=cordex
+protocol=gridftp
+latest=true
+priority=2000
+member_id=r1i1p1f1, r2i1p1f1,r3i1p1f1 
+data_node!=esgf-data3.ceda.ac.uk
+variable[table_id=SIday]=siconc, sithick, siu, siv
+experiment_id=historical, ssp126, ssp245, ssp585
+source_id=GFDL-CM4, GFDL-ESM4, NorESM2-LM, NorESM2-MM

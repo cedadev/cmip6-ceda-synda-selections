@@ -1,0 +1,10 @@
+project=CMIP6
+project!=cordex
+protocol=gridftp
+latest=true
+priority=5000
+data_node!=esgf-data3.ceda.ac.uk
+source_id=ACCESS-CM2, BCC-CSM2-MR, CMCC-CM2-SR5, CMCC-ESM2, CanESM5,IITM-ESM, KACE-1-0-G, MRI-ESM2-0 
+experiment_id=historical, ssp585, ssp126, ssp245
+member_id=r1i1p1f1
+variable[table_id=3hr]=huss, rsds, rsdsdiff, rsus, rlds, rlus, tas, uas, vas

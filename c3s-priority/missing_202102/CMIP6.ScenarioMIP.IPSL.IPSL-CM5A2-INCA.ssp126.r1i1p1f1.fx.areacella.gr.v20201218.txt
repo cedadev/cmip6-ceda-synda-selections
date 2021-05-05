@@ -1,0 +1,12 @@
+project=CMIP6
+protocol=gridftp
+latest=true
+priority=5000
+data_node!=esgf-data3.ceda.ac.uk
+activity_id=ScenarioMIP
+institution_id=IPSL
+source_id=IPSL-CM5A2-INCA
+experiment_id=ssp126
+member_id=r1i1p1f1
+variable[table_id=fx]=areacella
+grid_label=gr

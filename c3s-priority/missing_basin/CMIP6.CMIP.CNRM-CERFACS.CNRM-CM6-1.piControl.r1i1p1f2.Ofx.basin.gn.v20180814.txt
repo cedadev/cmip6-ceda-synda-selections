@@ -1,0 +1,12 @@
+project=CMIP6
+protocol=gridftp
+latest=true
+priority=5000
+data_node!=esgf-data3.ceda.ac.uk
+activity_id=CMIP
+institution_id=CNRM-CERFACS
+source_id=CNRM-CM6-1
+experiment_id=piControl
+member_id=r1i1p1f2
+variable[table_id=Ofx]=basin
+grid_label=gn

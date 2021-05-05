@@ -1,0 +1,12 @@
+project=CMIP6
+protocol=gridftp
+latest=true
+priority=5000
+data_node!=esgf-data3.ceda.ac.uk
+activity_id=ScenarioMIP
+institution_id=CAS
+source_id=FGOALS-g3
+experiment_id=ssp434
+member_id=r1i1p1f1
+variable[table_id=Amon]=ts
+grid_label=gn

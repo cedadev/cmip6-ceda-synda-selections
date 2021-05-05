@@ -1,0 +1,12 @@
+project=CMIP6
+protocol=gridftp
+latest=true
+priority=5000
+data_node!=esgf-data3.ceda.ac.uk
+activity_id=CMIP
+institution_id=CAMS
+source_id=CAMS-CSM1-0
+experiment_id=historical
+member_id=r2i1p1f1
+variable[table_id=day]=tasmax
+grid_label=gn

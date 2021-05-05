@@ -1,0 +1,11 @@
+project=CMIP6
+project!=cordex
+protocol=gridftp
+latest=true
+priority=2000
+data_node!=esgf-data3.ceda.ac.uk
+source_id=ACCESS-ESM1-5, CanESM5, CESM2, GFDL-CM4, CNRM-ESM2-1, MIROC-ES2L
+member_id=r1i1p1f1, r1i1p1f2
+experiment_id=historical, ssp126, ssp370, ssp585
+variable[table_id=Oyr]=o2, ph
+variable[table_id=Omon]=o2, ph

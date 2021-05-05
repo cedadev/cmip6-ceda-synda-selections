@@ -1,0 +1,10 @@
+project=CMIP6
+project!=cordex
+protocol=gridftp
+latest=true
+priority=2000
+data_node!=esgf-data3.ceda.ac.uk
+source_id=MIROC-ES2L
+experiment_id=piControl
+member_id=r1i1p1f2
+variable[table_id=Omon]=wfo, hfds

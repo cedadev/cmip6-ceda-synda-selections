@@ -1,0 +1,12 @@
+project=CMIP6
+protocol=gridftp
+latest=true
+priority=5000
+data_node!=esgf-data3.ceda.ac.uk
+activity_id=CMIP
+institution_id=CMCC
+source_id=CMCC-ESM2
+experiment_id=historical
+member_id=r1i1p1f1
+variable[table_id=Amon]=tasmin
+grid_label=gn

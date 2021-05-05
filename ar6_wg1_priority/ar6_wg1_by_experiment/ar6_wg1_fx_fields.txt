@@ -4,8 +4,8 @@ protocol=gridftp
 latest=true
 replica=false
 priority=2000
-member_id=r1i1p1f1
+member_id=r1i1p1f1, r1i1p1f2, r1i2p1f1, r1i1p2f1, r2r1i1p1f1
 data_node!=esgf-data3.ceda.ac.uk
 variable[table_id=fx]=sftlf, sftlf, orog
-variable[table_id=Ofx]=sftof
+variable[table_id=Ofx]=sftof, basin
 experiment_id=1pctCO2, a4SST, a4SSTice, a4SSTice-4xCO2, abrupt-0p5xCO2, abrupt-2xCO2, abrupt-4xCO2, abrupt-solm4p, abrupt-solp4p, amip, amip-4xCO2, amip-a4SST-4xCO2, amip-future4K, amip-lwoff, amip-m4K, amip-p4K, amip-p4K-lwoff, amip-piForcing, aqua-4xCO2, aqua-control, aqua-control-lwoff, aqua-p4K, aqua-p4K-lwoff, control-1950, esm-hist, faf-all, faf-heat, faf-passiveheat, faf-stress, faf-water, highres-future, highresSST-4xCO2, highresSST-LAI, highresSST-future, highresSST-p4K, highresSST-present, highresSST-smoothed, hist-1950, hist-GHG, hist-aer, hist-nat, historical, land-noLu, midHolocene, omip1, omip1-spunup, omip2, omip2-spunup, piClim-4xCO2, piClim-aer, piClim-anthro, piClim-control, piClim-ghg, piClim-lu, piControl, piSST, piSST-4xCO2, piSST-4xCO2-rad, piSST-pxK, spinup-1950, ssp119, ssp126, ssp245, ssp370, ssp434, ssp460, ssp534-over, ssp585
