@@ -1,12 +1,12 @@
 project=CMIP6
 project!=cordex
-protocol=gridftp
+protocol=http
 latest=true
 replica=false
 priority=5000
 data_node!=esgf-data3.ceda.ac.uk
-source_id=ACCESS-CM2, BCC-CSM2-MR, CMCC-CM2-SR5, CMCC-ESM2, CanESM5,IITM-ESM, KACE-1-0-G, MRI-ESM2-0 
-experiment_id=historical, ssp585, ssp126, ssp245
+source_id=KACE-1-0-G
+experiment_id=ssp585, ssp126, ssp245
 member_id=r1i1p1f1
 table_id=3hr
 variable=huss, rsds, rsdsdiff, rsus, rlds, rlus, tas, uas, vas

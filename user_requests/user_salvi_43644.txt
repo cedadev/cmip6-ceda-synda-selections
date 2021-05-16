@@ -1,0 +1,11 @@
+project=CMIP6
+project!=cordex
+protocol=gridftp
+latest=true
+replica=false
+priority=3000
+data_node!=esgf-data3.ceda.ac.uk
+experiment_id=piClim-histaer, piClim-histghg, piClim-histnat, piClim-histall
+member_id=r1i1p2f1, r1i1p1f1, r1i11p1f2
+table_id=Amon
+variable=ps, rsdt, rsut, rlut, rsutcs, rlutcs, ta, tas, ts
