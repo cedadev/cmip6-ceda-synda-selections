@@ -6,6 +6,6 @@ replica=false
 priority=5000
 data_node!=esgf-data3.ceda.ac.uk
 source_id=CanESM5
-experiment_id=historical, ssp585, ssp126, ssp245
+experiment_id=historical
 member_id=r1i1p2f1
-variable[table_id=3hr]=huss, rsds, rsdsdiff, rsus, rlds, rlus, tas, uas, vas
+variable[table_id=3hr]=vas
