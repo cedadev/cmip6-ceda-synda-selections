@@ -1,0 +1,13 @@
+project=CMIP6
+project!=cordex
+protocol=gridftp
+latest=true
+replica=false
+priority=5000
+data_node!=esgf-data3.ceda.ac.uk
+experiment_id=ScenarioMIP GeoMIP
+source_id=CNRM-CM6-1 CNRM-CM6-1-HR CNRM-ESM2-1 CNRM-ESM2-1-HR IPSL-CM5A2-INCA IPSL-CM6A-ATM-HR IPSL-CM6A-LR IPSL-CM6A-LR-INCA IPSL-CM7A-ATM-HR IPSL-CM7A-ATM-LR HadGEM3-GC31-HH HadGEM3-GC31-HM HadGEM3-GC31-LL HadGEM3-GC31-LM  HadGEM3-GC31-MH HadGEM3-GC31-MM UKESM1-0-LL UKESM1-0-MMh UKESM1-ice-LL ICON-ESM-LR MPI-ESM1-2-HR MPI-ESM1-2-LR MPI-ESM1-2-XR CESM2 CESM2-WACCM
+experiment_id=ssp585, ssp245, G6solar, G6sulfur
+member_id=r1i1p1f1, r1i1p1f2
+table_id=Amon day
+variable=tas tasmin tasmax pr

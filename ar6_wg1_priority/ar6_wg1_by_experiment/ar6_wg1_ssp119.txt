@@ -1,6 +1,7 @@
 project=CMIP6
 protocol=gridftp
 latest=true
+replica=false
 experiment_id=ssp119
 data_node!=esgf-data3.ceda.ac.uk
 member_id=r1i1p1f1 
